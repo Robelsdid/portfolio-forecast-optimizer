@@ -44,7 +44,3 @@ pip install -r requirements.txt
 2. Execute analysis: `python src/main.py`
 3. View results in the `results/` directory
 
-## Key Dates
-- Discussion: Wednesday 06 Aug 2025
-- Interim Solution: Sunday 10 Aug 2025 (20:00 UTC)
-- Final Submission: Tuesday 12 Aug 2025 (20:00 UTC) 

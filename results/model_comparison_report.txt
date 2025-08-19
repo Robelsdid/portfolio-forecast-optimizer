@@ -1,0 +1,59 @@
+
+================================================================================
+TIME SERIES FORECASTING MODEL COMPARISON REPORT
+================================================================================
+
+MODEL PERFORMANCE SUMMARY:
+----------------------------------------
+
+Metric    ARIMA     LSTM Best Model
+   MAE   $66.48   $55.13       LSTM
+   MSE $6929.74 $5011.11       LSTM
+  RMSE   $83.25   $70.79       LSTM
+  MAPE   23.08%   21.56%       LSTM
+
+IMPROVEMENT ANALYSIS:
+--------------------
+MAE: LSTM better by 20.59%
+MSE: LSTM better by 38.29%
+RMSE: LSTM better by 17.60%
+MAPE: LSTM better by 7.05%
+
+OVERALL RESULTS:
+---------------
+Overall Winner: LSTM
+ARIMA wins: 0/4 metrics
+LSTM wins: 4/4 metrics
+
+MODEL CHARACTERISTICS:
+-------------------------
+ARIMA Model:
+- Parameters: (4, 0, 2)
+- AIC: 12051.51
+- Type: Statistical/Classical
+- Interpretability: High
+- Training Time: Fast
+
+LSTM Model:
+- Hyperparameters: {'units': 100, 'layers': 1, 'dropout': 0.1, 'learning_rate': 0.01}
+- Type: Deep Learning
+- Interpretability: Low
+- Training Time: Slow
+- Complexity: High
+
+RECOMMENDATIONS:
+---------------
+
+1. LSTM performs better overall for this dataset
+2. Consider using LSTM for:
+   - Final production models
+   - When accuracy is the primary concern
+   - When complex patterns need to be captured
+3. ARIMA may still be useful for:
+   - Baseline comparison
+   - When interpretability is required
+   - Quick initial analysis
+
+================================================================================
+REPORT GENERATED: 2025-08-18 00:19:24
+================================================================================

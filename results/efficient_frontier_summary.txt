@@ -1,0 +1,14 @@
+Efficient Frontier Summary (Annualized)
+Risk-free rate: 0.00%
+
+Min-Vol Portfolio:
+  TSLA: 0.0000
+  BND: 0.9475
+  SPY: 0.0525
+  Return: 0.0235  Vol: 0.0556  Sharpe: 0.423
+
+Max-Sharpe Portfolio:
+  TSLA: 0.0000
+  BND: 0.4115
+  SPY: 0.5885
+  Return: 0.0973  Vol: 0.1130  Sharpe: 0.861
